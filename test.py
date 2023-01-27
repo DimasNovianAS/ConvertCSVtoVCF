@@ -1,6 +1,10 @@
 import csv
 import sys
-with open("tes.csv", 'r') as file:
+
+filename="tes.csv" # you can change the name of your file in here
+
+
+with open(filename, 'r') as file:
   csvreader = csv.reader(file)
   allvcf = open('ALL.vcf', 'w') 
 
